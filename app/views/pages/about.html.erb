@@ -1,0 +1,9 @@
+<h1>ABOUT</h1>
+
+<ol>
+  <% @students.each do |student| %>
+  <li><%= student %></li>
+  <% end %>
+</ol>
+
+<%= link_to "Click me !", contact_path %>
